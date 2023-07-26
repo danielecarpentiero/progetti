@@ -1,0 +1,77 @@
+@font-face {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(Montserrat/);
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    overflow: auto;
+}
+.transbox{
+padding-top: 5%;
+padding-left: 7%;
+padding-bottom: 5%;
+padding-right: 5%;
+margin-left: 15%;
+margin-top: 1%;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+border-bottom-right-radius:15px;
+border-bottom-left-radius:15px;
+width: 60%;
+height: 70%;
+background-color: #0b0606;
+opacity: 0.6;
+display: inline-block;
+position: relative;
+overflow: auto;
+
+}
+#logo{
+width: 25%;
+margin-left: 35%;
+
+}
+h1{
+    text-align: center;
+    color: chartreuse;
+}
+#button{
+text-align: center;
+height: 25px;
+width: 90%;
+background-color: chartreuse;
+}
+h2,p{
+    color: white;
+}
+#mid{
+height: 20px;
+width: 25%;
+background-color: orange;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+border-bottom-right-radius:15px;
+border-bottom-left-radius:15px;
+}
+#high{
+    height: 20px;
+    width: 40%;
+    background-color:green;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+}
+#low{
+    height: 20px;
+    width: 10%;
+    background-color:red;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;  
+}
