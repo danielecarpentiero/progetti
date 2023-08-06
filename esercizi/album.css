@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+    
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+}
+.icon{
+    color: dodgerblue;
+}
+.plus{
+    margin-bottom: 5%;
+    font-size: 50px;
+}
+.albums{
+    font-size: 60px;
+    float: left;
+    margin-bottom: 1%;
+}
+.see-all{
+    font-size: 40px;
+    float: right;
+}
+main{
+    margin-top: 5%;
+}
+.container{
+    height: 30vh;
+    width: 20vw;
+    float: left;
+    margin-bottom: 3%;
+    
+}
+.picture{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 90%;
+    margin-bottom: 2%;
+}
+.uno{
+    background-image: url(https://cdn.ceoworld.biz/wp-content/uploads/2020/06/Paris.jpg);
+}
+.due{
+    background-image: url(https://www.studentuniverse.com/blog/wp-content/uploads/2014/04/Most-Beautiful-Places-to-Travel-Featured-Image.jpg);
+}
+.tre{
+    background-image: url(https://themysteriousworld.com/wp-content/uploads/2015/08/maldives.jpg);
+}
+.quattro{
+    background-image: url(https://fullsuitcase.com/wp-content/uploads/2020/06/Best-places-to-visit-in-Italy.jpg);
+}
+.cinque{
+    background-image: url(https://media.cntraveler.com/photos/6389e3e3b729bd2998380713/16:9/w_4495,h_2528,c_limit/Capri-letizia-agosta-swJhB7hq2XA-unsplash.jpg);
+}
+.sei{
+    background-image: url(https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/Taj-Mahal-Agra-feature.jpg);
+}
+.sette{
+    background-image: url(https://www.edreams.pt/blog/wp-content/uploads/sites/4/2017/03/Seoul-coreia-primavera.jpg);
+}
+.otto{
+    background-image: url(https://www.planetware.com/photos-large/I/italy-best-places-to-visit-florence.jpg);
+}
+.text{
+    font-size: large;
+    margin-bottom: 2%;
+}
+.placeholder{
+    font-size: large;
+    color: lightgray;
+}
